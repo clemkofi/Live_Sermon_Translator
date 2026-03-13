@@ -1,4 +1,4 @@
-# Church Translator
+# Live Sermon Translator
 
 Terminal proof of concept for live German sermon transcription with Qwen3-ASR and English translation through `translategemma` on Ollama.
 

@@ -145,7 +145,7 @@ class TranslatorPipeline:
                 if segment is None:
                     return
 
-                print(f"[DE] {segment.text}")
+                # print(f"[DE] {segment.text}")
                 translated = await self.translator.translate(
                     segment.text,
                     stream_output=True,
